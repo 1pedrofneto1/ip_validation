@@ -34,6 +34,10 @@ const validating_ip = () => {
                 result.innerHTML = "IP Valid"
                 result.style.color = "rgb(27, 216, 27)"
             }
+            else{
+                window.document.querySelector('div#result').innerHTML = ""
+                window.alert('Invalid IP! Your ip cannot contain block less than 0')
+            }
         }
         else{
             window.document.querySelector('div#result').innerHTML = ""
