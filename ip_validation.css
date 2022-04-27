@@ -1,0 +1,26 @@
+/* ========= Reset and global settings =====
+==========================================*/
+
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#principal{
+    margin-top: 15rem;
+    text-align: center;
+}
+
+h1{
+    padding: 0 0 1.5rem 0;
+}
+
+#inputs{
+    padding: 2rem 0 3rem 0;
+}
+
+#result{
+    text-align: center;
+    font-size: 2rem;
+}
