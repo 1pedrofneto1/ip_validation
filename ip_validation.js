@@ -29,7 +29,7 @@ const validating_ip = () => {
                 window.document.querySelector('div#result').innerHTML = ""
                 window.alert('Invalid IP! Your first IP block cannot go beyond 255')
             }
-            else if(first_block >= 0 || first_block <= 255){
+            else if(first_block > 0 || first_block <= 255){
                 let result = window.document.querySelector('div#result')
                 result.innerHTML = "IP Valid"
                 result.style.color = "rgb(27, 216, 27)"
