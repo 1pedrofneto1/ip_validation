@@ -14,7 +14,7 @@ const validating_ip = () => {
             window.alert('Invalid IP! Your ip cannot have a leading zero')
         }
         //If the IP is correct, return IP valid
-        else if(first_block.length == 3 && second_block.length == 2 && third_block.length == 2 && fourth_block.length == 2){
+        else if(first_block.length == 3 && second_block.length == 2 && third_block.length == 2 && fourth_block.length == 2 || first_block.length == 1 && second_block.length == 1 && third_block.length == 1 && fourth_block.length == 1){
            let result = window.document.querySelector('div#result')
            result.innerHTML = "IP Valid"
            result.style.color = "rgb(27, 216, 27)"
